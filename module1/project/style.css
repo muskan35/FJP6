@@ -1,0 +1,67 @@
+header{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+    font-size: 25px;
+}
+nav{
+    width: 60vw;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+header h1{
+    font-weight:800;
+}
+.imageclass{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    /* margin-left: 30px; */
+    /* height: 900px; */
+    width: 95vw;
+}
+.contain{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.contain img{
+    width: 30%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contain h2{
+    text-align: center;
+    font-weight: 300;
+}
+.contain p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+}
+.ht, .cs, .js{
+    padding: 5px;
+    margin: 5px;
+}
