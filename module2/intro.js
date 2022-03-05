@@ -6,3 +6,15 @@ function sum(num1,num2){
 }
 
 sum(5,3);
+
+let a = function multiply(x,y){
+    let mul = x*y;
+    return mul;
+}
+console.log(a(10,20));
+
+//array
+let ele=[1,2,3,"hello"];
+console.log(ele);
+ele.push("muskan");
+console.log(ele);
